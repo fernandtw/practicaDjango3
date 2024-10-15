@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<header class="bg-primary text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Bienvenido a Mi Sitio</h1>
+        <p class="lead">Un lugar increíble para descubrir cosas asombrosas</p>
+        <a href="#" class="btn btn-light btn-lg">Aprende más</a>
+    </div>
+</header>
+
+<main class="container my-5">
+    <section class="row">
+        <div class="col-md-4 mb-4">
+            <h2>Característica 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <h2>Característica 2</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+            <h2>Característica 3</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-light text-center py-3">
+    <div class="container">
+        <p>&copy; 2023 Mi Sitio. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+{% endblock %}
